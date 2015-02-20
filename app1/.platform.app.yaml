@@ -1,0 +1,11 @@
+name: app1
+
+toolstack: "php:symfony"
+
+relationships: {}
+
+web:
+    document_root: "/web"
+    passthru: "/index.php"
+
+disk: 2048

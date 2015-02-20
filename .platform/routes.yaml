@@ -1,0 +1,7 @@
+"http://{default}/app1":
+    type: upstream
+    upstream: "app1:php"
+
+"http://{default}/app2":
+    type: upstream
+    upstream: "app2:php"
